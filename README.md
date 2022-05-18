@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/captura1)
-![](./screenshots/captura2)
+![desktop](./screenshots/captura1.png)
+![mobil](./screenshots/captura2.png)
 
 ### Links
 
@@ -52,16 +52,19 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="img_container">
+            </div>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.img_container{
+    width: 560px;
+    height: 446px;
+    mix-blend-mode: luminosity;
+    /* filter: brightness(.40); */
+    filter: opacity(70%);
+    background-image: url("./images/image-header-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 ```
 
